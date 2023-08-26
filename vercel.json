@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "public": true,
+    "name": "dental-lab-spa",
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/api" }
+    ],
+    "functions": {
+      "api/index.js": {
+        "includeFiles": "dist/dental-lab-spa/browser/**"
+      }
+    }
+}
